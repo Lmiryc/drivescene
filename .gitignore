@@ -1,0 +1,87 @@
+# Data and Datasets
+datasets/
+data/
+*.data
+*.hdf5
+*.h5
+
+# Checkpoint and Model Files
+ckpt/
+checkpoints/
+*_ckpt/
+sddnet_ckpt/
+pretrained_models/
+*.pth
+*.pt
+*.ckpt
+
+# Results and Output
+demo/
+demo_results*/
+eval_output/
+runs/
+outputs/
+logs/
+results/
+
+# Cache and Temporary Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment and Virtual Env
+venv/
+env/
+ENV/
+.env
+
+# OS Files
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Large Binary Files
+*.bin
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# Video and Image Sequences (if large)
+*.mp4
+*.avi
+*.mov
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Weights and Embeddings
+weights/
+embeddings/
+
+# Debug and Profiling
+*.prof
+*.pstats
+debug_models/
+
+# User-specific files
+.vscode/
+.idea/
+*.user
