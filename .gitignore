@@ -62,11 +62,15 @@ Thumbs.db
 *.pickle
 *.npy
 *.npz
+*.safetensors
 
 # Video and Image Sequences (if large)
 *.mp4
 *.avi
 *.mov
+
+# Model Cache
+model_cache/
 
 # Jupyter Notebook
 .ipynb_checkpoints/
@@ -85,3 +89,5 @@ debug_models/
 .vscode/
 .idea/
 *.user
+
+DeSiRe-GS/submodules/
